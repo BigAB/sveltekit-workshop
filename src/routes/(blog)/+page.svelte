@@ -8,7 +8,7 @@
 	{#each data.posts as post}
 		<li>
 			<article>
-				<a href={post.slug}><h4>{post.title}</h4></a>
+				<h4><a href={post.slug}>{post.title}</a></h4>
 				<p>{post.excerpt}</p>
 			</article>
 		</li>
@@ -28,6 +28,7 @@
 
 	h4 {
 		margin: 0;
+		color: rebeccapurple;
 	}
 
 	article {
